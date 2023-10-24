@@ -1,5 +1,6 @@
 # KaliLinuxRansomwarePOC
-This is a Proof of Concept Kali Linux program of a ransomware that encrypts a sections of a user's filesystem and requests for a ransom to be paid in return for the key that will be used for decryption and file recovery
+## THIS IS A PROOF OF CONCEPT FOR EDUCATIONAL AND DEMONSTRATION PURPOSES ONLY. DO NOT USE THIS PROGRAM FOR NEFARIOUS AND ILLEGAL PURPOSES.
+This is a program of a ransomware that encrypts a sections of a user's filesystem and requests for a ransom to be paid in return for the key that will be used for decryption and file recovery
 
 This program currently encrypts the following directories:
 /home/{username}/testfiles
